@@ -1,6 +1,12 @@
 MIT License
 
-Copyright (c) 2026 López group (ICIQ)
+Copyright (c) 2026 - NCCR Catalysis
+
+    Institute of Chemical Research of Catalonia (ICIQ)
+
+    Eidgenössische Technische Hochschule Zürich (ETH-Zürich)
+
+    Paul Scherrer Institute (PSI)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
