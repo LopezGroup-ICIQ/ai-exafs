@@ -15,7 +15,7 @@ readme = "README.md"
 license = { file = "LICENSE.md" }
 authors = [
     { name = "Javier Heras-Domingo", email = "javier.heras@ub.es"},
-    { name = "Andrea Ruiz-Ferrando", email = "aruizferrand@ethz.ch"}
+    { name = "Andrea Ruiz-Ferrando", email = "andrea.ruiz.ferrando@chem.ethz.ch"}
 ]
 keywords = ["X-ray Absorption Spectroscopy", "Deep Learning", "Smart Characterization"]
 classifiers = [
