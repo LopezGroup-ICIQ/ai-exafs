@@ -1,0 +1,31 @@
+# Copyright (c) 2026 - ICIQ (Institute of Chemical Research of Catalonia)
+# Developed at ICIQ and funded by NCCR Catalysis.
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-exafs"
+version = "0.0.1"
+description = "Graph Neural Network to predict EXAFS spectra"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Javier Heras-Domingo", email = "javier.heras@ub.es"},
+    { name = "Andrea Ruiz-Ferrando", email = "aruizferrand@ethz.ch"}
+]
+keywords = ["X-ray Absorption Spectroscopy", "Deep Learning", "Smart Characterization"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LopezGroup-ICIQ/ai-exafs"
+
+[tool.setuptools]
+packages = ["ai-exafs"]
