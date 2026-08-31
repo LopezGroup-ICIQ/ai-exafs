@@ -1,3 +1,8 @@
+# Copyright (c) 2026 - ICIQ (Institute of Chemical Research of Catalonia)
+# Developed at ICIQ and funded by NCCR Catalysis.
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
+
 experiment:
   id: "ai_exafs_experiment_id"
   seed: 42
@@ -34,7 +39,7 @@ callbacks:
 training:
   max_epochs: 200
   lr: 0.0005860
-  weight_decay: 0.0
+  weight_decay: 1e-8
   early_stopping_patience: 15
 
 model:
