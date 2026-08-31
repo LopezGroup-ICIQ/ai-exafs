@@ -103,7 +103,7 @@ The supplemetary data has been published in a [Zenodo]() repository, providing t
 > To reproduce the reported results, the dataset pickle and LMDB files should be placed in the `data` folder, the pre-trained checkpoints in the `pre_trained` folder, and the outputs from the callback can be visualize by placing them within the `notebooks/outputs` folder.
 
 ## ❤️  Acknowledgements
-This publication was created as part of NCCR Catalysis (grant numbers 180544 and 225147), a National Centre of Competence in Research funded by the Swiss National Science Foundation. The authors thank BSC-RES for generously providing computational resources.
+This publication was created as part of NCCR Catalysis (grant numbers 180544 and 225147), a National Centre of Competence in Research funded by the Swiss National Science Foundation. The authors thank BSC-RES for generously providing computational resources. The authors also acknowledge the ANIMATE project (PID2024-157556OB-I00), funded by MCIU/AEI/10.13039/501100011033/FEDER, UE. The authors are also grateful to Dr. Olga Safonova from the Paul Scherrer Institute (PSI) for fruitful discussions and valuable feedback throughout the project.
 
 ## ⚖️  License
 `AI-EXAFS` is released under the [MIT](https://github.com/LopezGroup-ICIQ/ai-exafs/blob/main/LICENSE.md) license.
