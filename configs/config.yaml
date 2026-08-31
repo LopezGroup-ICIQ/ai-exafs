@@ -1,0 +1,56 @@
+experiment:
+  id: "ai_exafs_experiment_id"
+  seed: 42
+
+paths:
+  root_dir: "<<YOUR_PATH>>"
+  db_path: "/data/wf_tmQM_wB97MV.lmdb"
+  checkpoint_path: "/checkpoints"
+  pre_trained_path: "/pre_trained"
+
+logging:
+  wandb_project: "ai-exafs"
+  offline: False
+
+dataset:
+  val_ratio: 0.1
+  test_ratio: 0.1
+  batch_size: 32
+  num_workers: 0
+  random_state: 42
+  norm_lo: 0.1
+  norm_hi: 0.9
+  norm_coverage_report: True
+
+callbacks:
+  fft: True
+  kmin: 3.0
+  kmax: 12.0
+  kweight: 2.0
+  dk: 1.0
+  window: "hanning"
+  rmax_out: 6.0
+
+training:
+  max_epochs: 200
+  lr: 0.0005860
+  weight_decay: 0.0
+  early_stopping_patience: 15
+
+model:
+  in_features: 92
+  out_features: 256
+  spectra_dim: 928
+  residual_block: True
+  n_linear: 1
+  n_conv: 5
+  act_fun: "leakyrelu"
+  edge_dim: 1
+  g_aggr: "max"
+  g_batch_norm: True
+  g_bias: True
+  max_num_nodes: 2000
+  pool_heads: 16
+  pool_layer_norm: False
+  pool_dropout: 0.6137
+  bias: True
